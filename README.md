@@ -4,6 +4,6 @@ The purpose of this project is to build a model of car cruise in real situation.
 
 There are several situation we need put into consideration. 
 * The **oxygen** content decrease due to the increases of elevation. Without rich oxygen, combustion engine cannot burn gasoline totally.
-* **Fehn wind**
+* **Fehn wind** flows from Rockey Mountain to Great Plain. 
 *
 *
