@@ -5,9 +5,7 @@ The purpose of this project is to simulate Mars Rover in real situation. Assume 
 There are several States we need to take into consideration. 
 * Rover initial state is **Wander**, 
 * The sandstorm, which happens very often. If the *sandstorm is detected*, Rover should **Close Solar Panels** to aviod damage. Then, *reset* and back to **Wander**.  Evenmore, if the wind get stronger, the Rover should **Sleep**. Then, *reset* to **Close Solar Panels** or *mission start* to **Find Water** after sandstorm stop.
-
 *If *Alien detected*, Rover should go to **Open Camera** state, emit event *camera set up* and the watch will capture this, turn camera running from false to true. By transition *record video* to **Close Camera**, then emit event *camera set up*, captured by watch to turn camera running from true to false. *send video back* will transit rRover to **Wander** state.
-
 *Rover transits from **Wander** to **Find Water** by *mission start*, then transit to **Collect Water** by *found water*. Last transition is *mission complete* and back to **Wander** state. 
 
 * The **temperature** decrease 0.6 Celsius by every 100 meters elevation gain. 
