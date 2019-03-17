@@ -8,6 +8,7 @@ There are several States we need to take into consideration.
 * If *Alien detected*, Rover should go to **Open Camera** state, emit event *camera set up* and the watch will capture this, turn camera running from false to true. By transition *record video* to **Close Camera**, then emit event *camera set up*, captured by watch to turn camera running from true to false. *send video back* will transit rRover to **Wander** state.
 * Rover transits from **Wander** to **Find Water** by *mission start*, then transit to **Collect Water** by *found water*. Last transition is *mission complete* and back to **Wander** state. 
 
+![qzDxjNf3TFSND%+EqJAr4Q_thumb_b5f](https://user-images.githubusercontent.com/12164360/54499655-6caaac00-48d1-11e9-897d-49cbab8d31b5.jpg)
 
 
 
