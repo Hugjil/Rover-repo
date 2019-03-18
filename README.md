@@ -14,9 +14,13 @@ There are several States we need to take into consideration.
 
 # Milestone 
 *1*. March 8th, start the project. decide to make car cruise problem. 
+
 *2*. March 14th, change project to Mars Rover problem. 
+
 *3*. March 15th, construct the States of Rover. Update the ReadMe file.
+
 *4*. March 17th, collect the data that Rover gets.Implement the emit and watch event for Alien detected.
+
 *5*. March 18th, turn in the final project with proper unit test.
 
 # Goals
