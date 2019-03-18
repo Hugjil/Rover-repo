@@ -12,12 +12,12 @@ There are several States we need to take into consideration.
 
 
 
-# Milestone: 
-1. March 8th, start the project. decide to make car cruise problem. 
-2. March 14th, change project to Mars Rover problem. 
-3. March 15th, construct the States of Rover. Update the ReadMe file.
-4. March 17th, collect the data that Rover gets.Implement the emit and watch event for Alien detected.
-5. March 18th, turn in the final project with proper unit test.
+# Milestone 
+*1*. March 8th, start the project. decide to make car cruise problem. 
+*2*. March 14th, change project to Mars Rover problem. 
+*3*. March 15th, construct the States of Rover. Update the ReadMe file.
+*4*. March 17th, collect the data that Rover gets.Implement the emit and watch event for Alien detected.
+*5*. March 18th, turn in the final project with proper unit test.
 
 # Goals
 * The goal of this project is to stimulate the Mars Rover on 2D environment, and find water at location (154, 100). 
@@ -28,7 +28,11 @@ There are several States we need to take into consideration.
 * Alter recording, the Rover will emit another event "camera set up", and watch will capture this event and set camera running statue as false.  
 * All the data stored by Rover will print out at final, and the last data should be the true for finding water.
 
-The resource I am gonna use is elma, robot, and StateMachine. 
+# Resources
+The resource used in this project are listed below:
+* elma from professor's github. 
+* robot from homework 7
+* StateMachine from week 7 lecture. 
 
 
 
