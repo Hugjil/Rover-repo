@@ -12,14 +12,21 @@ There are several States we need to take into consideration.
 
 
 
-Milestone: 
-1. March 8th, start the project. decide to make Mars Rover problem. 
-2. March 14th, build emla environment. 
-3. March 18th, construct the States of Rover.
-4. March 20th, collect the data that Rover gets.
-5. March 22th, turn in the final project with proper unit test.
+#Milestone: 
+1. March 8th, start the project. decide to make car cruise problem. 
+2. March 14th, change project to Mars Rover problem. 
+3. March 15th, construct the States of Rover. Update the ReadMe file.
+4. March 17th, collect the data that Rover gets.Implement the emit and watch event for Alien detected.
+5. March 18th, turn in the final project with proper unit test.
 
-The success of this project is to find water at location (154, 100),  the rover will randomly walk around Mars' surface and record its location and water status. If there is no water, the Rover will record data index, location (x, y) and false for no water, then continue search. If the Rover find water by luck, the Rover will record data index, location (x, y) and true for finding water, then exit the mission.  all the data stored by Rover will print out at final, and the last data should be the true for finding water.
+#Goals
+* The goal of this project is to stimulate the Mars Rover on 2D environment, and find water at location (154, 100). 
+* The Rover will randomly walk one step each time on Mars' surface and record its location and report water status. 
+* If there is no water, the Rover will record data index, location (x, y) and false for no water, then continue search. 
+* If the Rover find water by luck, the Rover will record data index, location (x, y) and true for finding water, then exit the mission. 
+* The Rover will emit event "camera set up" if alien is detected, and the watch will capture the event and set camera running status in true. 
+* Alter recording, the Rover will emit another event "camera set up", and watch will capture this event and set camera running statue as false.  
+* All the data stored by Rover will print out at final, and the last data should be the true for finding water.
 
 The resource I am gonna use is elma, robot, and StateMachine. 
 
