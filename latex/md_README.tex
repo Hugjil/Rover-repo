@@ -1,0 +1,47 @@
+\href{http://klavinslab.org/elma}{\tt Elma} is an event loop manager designed to teach embedded and reactive systems programming. This repository contains an example Elma project, showing how to use many Elma features, as well as illustrating how to arrange the files and directories in an Elma project.
+
+The source code for this project is available \href{https://github.com/klavinslab/elma_project}{\tt on github}.
+
+\subsection*{Installation }
+
+\begin{DoxyVerb}git clone https://github.com/klavinslab/elma_project.git
+cd elma_project
+docker run -v $PWD:/source -it klavins/elma:latest bash
+make
+make docs
+\end{DoxyVerb}
+
+
+\subsection*{Execution }
+
+To run the stopwatch, type \begin{DoxyVerb}bin/stopwatch
+\end{DoxyVerb}
+
+
+The stopwatch is controlled via the keyboard, via these keys\+:
+\begin{DoxyItemize}
+\item {\bfseries s}\+: Start or stop
+\item {\bfseries l}\+: Lap
+\item {\bfseries r}\+: Reset
+\item {\bfseries q}\+: Quit
+\end{DoxyItemize}
+
+\subsection*{Testing }
+
+To run tests, do ```bash bin/test ```
+
+\subsection*{Architecture }
+
+Describe how your project was designed, what choices you made, how things are organized, etc.
+
+\subsection*{Results }
+
+Describe the results of testing and running your code. Include visuals when possible.
+
+\subsection*{Acknowledgements }
+
+Mention anyone who helped you and how.
+
+\subsection*{References }
+
+List all libraries, articles, stack overflow answers, etc. that you used to get your code working. 
